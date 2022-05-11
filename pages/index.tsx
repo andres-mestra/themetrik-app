@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function Index() {
   return (
     <div className="home">
-      <h1 className="title">The Metrik</h1>
+      <h1 className="title">The Metrik.</h1>
     </div>
   )
 }
