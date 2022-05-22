@@ -98,6 +98,11 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@fontsource/roboto@^4.5.5":
+  version "4.5.5"
+  resolved "https://registry.yarnpkg.com/@fontsource/roboto/-/roboto-4.5.5.tgz#4ecc38e690469378e2ec2a97f9c12282c654cc93"
+  integrity sha512-Pe1p+gAO6K0aLxBXlLoJRHVx352tVc/v/7DOnvM3t+FYXb+KUga9aCD1NpnDfd0kKnWXqrZyAXguyyFWDDuphw==
+
 "@humanwhocodes/config-array@^0.5.0":
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.5.0.tgz#1407967d4c6eecd7388f83acf1eaf4d0c6e58ef9"
@@ -2029,6 +2034,11 @@ hyphenate-style-name@^1.0.2:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/hyphenate-style-name/-/hyphenate-style-name-1.0.4.tgz#691879af8e220aea5750e8827db4ef62a54e361d"
   integrity sha512-ygGZLjmXfPHj+ZWh6LwbC37l43MhfztxetbFCoYTM2VjkIUpeHgSNn7QIyVFj7YQ1Wl9Cbw5sholVJPzWvC2MQ==
+
+iconoir-react@^4.9.1:
+  version "4.9.1"
+  resolved "https://registry.yarnpkg.com/iconoir-react/-/iconoir-react-4.9.1.tgz#214e2ca6fbe16bae215f372eda3f6d54cf19016f"
+  integrity sha512-/m//LPjN3p6lJf0321/LQZSIii3mmHGWVu7MtjWRTEET1Swtc7jce5J/ad/dRtCSaZrae9r16AsbgwngxUKkpw==
 
 iconv-lite@^0.4.4:
   version "0.4.24"

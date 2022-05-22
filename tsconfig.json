@@ -41,6 +41,9 @@
       "@components/*": [
         "components/*"
       ],
+      "@layout/*": [
+        "components/layout/*"
+      ],
       "@common/*": [
         "components/common/*"
       ],
@@ -55,6 +58,9 @@
       ],
       "@meta/*": [
         "components/meta/*"
+      ],
+      "@types/*": [
+        "types/*"
       ]
     },                        /* List of root folders whose combined content represents the structure of the project at runtime. */
     "typeRoots": [

@@ -1,0 +1,56 @@
+.header {
+  color: var(--color-white);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transition: 0.7s;
+  padding: 3rem 10rem;
+  z-index: 1;
+  background-color: var(--color-black-opasity) ;
+}
+
+.logo__text {
+  color: var(--color-primary);
+  font-weight: bold;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+
+.nav,
+.socialMedia {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.socialMedia {
+  gap: 1.5rem;
+}
+
+.nav__link {
+  color: currentColor;
+  font-size: 1.7rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.socialMedia__link {
+  color: currentColor;
+}
+
+.header_down {
+  background: var(--color-white);
+  color: var(--color-black);
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.header_hide {
+  display: none;
+}
