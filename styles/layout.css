@@ -1,5 +1,6 @@
+/*************** Header *************/
 .header {
-  color: var(--color-white);
+  color: var(--color-text-white);
   position: fixed;
   top: 0;
   left: 0;
@@ -38,10 +39,28 @@
   letter-spacing: 2px;
   font-weight: 600;
   text-transform: capitalize;
+  position: relative;
+}
+
+.nav__link:hover::after {
+  content: '';
+  background-color: var(--color-primary);
+  margin-bottom: -5px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+  animation: ani-link-text-border 0.2s ease both;
 }
 
 .socialMedia__link {
   color: currentColor;
+  transition: all .2s;
+}
+
+.socialMedia__link:hover {
+  transform: scale(1.05);
 }
 
 .header_down {
@@ -53,4 +72,38 @@
 
 .header_hide {
   display: none;
+}
+
+/***************** Cover ************/
+
+.cover__container {
+  background-color: var(--color-background);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12rem 10rem 8rem 10rem;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+.cover__image {
+  object-fit: cover;
+  height: 100%;
+  width: 40%;
+}
+
+.cover__info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.cover_description {
+  color: var(--color-text-gray);
+  width: 12ch;
+}
+
+.cover__point {
+  color: var(--color-primary);
 }

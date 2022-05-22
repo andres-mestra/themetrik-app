@@ -16,7 +16,7 @@ export const Header = ({ children }: Props) => {
           const isDownShow = globalThis.scrollY > 0
           headerRef.current.classList.toggle('header_down', isDownShow)
 
-          const isDownHide = newPosition > oldPosition && newPosition >= 636
+          const isDownHide = newPosition > oldPosition && newPosition >= 500
           headerRef.current.classList.toggle('header_hide', isDownHide)
         }
         return newPosition
