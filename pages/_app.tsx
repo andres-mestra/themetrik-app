@@ -19,6 +19,7 @@ import '@fontsource/roboto/500.css'
 import '@fontsource/roboto/700.css'
 import '@styles/global.css'
 import '@styles/layout.css'
+import '@styles/indexScreen.css'
 
 function App({ Component, pageProps }: AppProps) {
   const router = useRouter()

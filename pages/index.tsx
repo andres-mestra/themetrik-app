@@ -3,6 +3,7 @@ import { useRouter } from 'next/router'
 
 import { Layout } from '@layout/Layout'
 import { Cover } from '@layout/Cover'
+import { ServicesSection } from '@components/ServicesSection'
 // import { Layout } from '@components/Layout'
 // import { PostView } from '@components/PostView'
 // import { HeaderIndex } from '@components/HeaderIndex'
@@ -55,6 +56,7 @@ export default function Index({ cmsData }: IndexProps) {
         coverImage={settings?.coverImage}
         description={settings?.description}
       />
+      <ServicesSection />
       <div
         style={{
           height: '3000px',
